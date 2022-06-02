@@ -29,7 +29,7 @@
 .profile-job{
     text-align: center;
     color: gray;
-    font-size: 12px;">
+    font-size: 12px;
 }
 
 .profile-introdution-bg {
@@ -38,7 +38,8 @@
     height: 150px; 
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;"
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #d1d1d1;
                    
 }
 
