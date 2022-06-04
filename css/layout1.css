@@ -1,19 +1,53 @@
+.navbar{
+    text-align: center;
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px rgb(215, 215, 215);
+   border-radius: 4px;
+    padding: 10px;
+   margin: 20px;
+
+}
+.logo{
+    width: 40px;
+    float: left;
+    margin: 1px;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    /* border-right: solid 1px rgb(224, 224, 224); */
+    padding: 8px;
+
+}
+
+.navbar a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
 .container{
-    width: 700px;
+    width: 800px;
     display: block;
     margin-right: auto;
     margin-left: auto;
     padding-top: 10px;
-    background-color: ;
+    padding: 20px;
+
     }
 
 .content_left{
     width: 80%;
     float: left;
+
 }
 .content_right{
     width: 20%;
     float: left;
+    
+    
 }
 .content_info_img{
     width: 50px;
@@ -53,5 +87,5 @@
 
 .content_right_img{
     margin-top: 30px;
-    width: 180px ;
+    width: 100% ;
 }
