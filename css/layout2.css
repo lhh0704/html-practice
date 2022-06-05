@@ -1,0 +1,46 @@
+.bg{
+    background-color:rgba(0, 0, 0, 0.5); /*살짝 투명한 검정으로 배경색*/
+    position: absolute; /*다른 요소들 위로 겹쳐질 수 있게함*/
+    width: 100%;
+    height: 500px;
+}
+
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    /* filter: brightness(70%); */
+}
+.main-title{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-text{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+  word-spacing: 1px;
+}
+
+.shop_btn{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    word-spacing: -1px;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 5px;
+    background-color:rgba(206, 206, 206, 0.5);
+}
