@@ -1,3 +1,6 @@
+div{
+    box-sizing: border-box;
+}
 .bg{
     background-color:rgba(0, 0, 0, 0.5); /*살짝 투명한 검정으로 배경색*/
     position: absolute; /*다른 요소들 위로 겹쳐질 수 있게함*/
@@ -55,13 +58,15 @@
 .main-box{
     background-color: rgb(240, 240, 240);
     position: relative;
-    top: 240px;
+    top: 460px;
     margin: auto;
     padding: 30px;
-    width: 600px;
-    height: 90px;
+    width: 80%;
+    max-width: 600px;
+    height: 150px;
     text-align: center;
     border-radius: 4px;
+    z-index: 5;
 }
 
 .main-box-title{
