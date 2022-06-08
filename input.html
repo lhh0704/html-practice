@@ -12,7 +12,7 @@
         <h4>Contact us</h4>
         <div class="input-mail">
             <label for="mail">Your Email</label>
-            <input type="text" id="mail"> 
+            <input type="email" id="mail"  placeholder="email@examplr.com"> 
          </div>
 
          <div class="input-first-name">
@@ -29,17 +29,19 @@
 
         <div class="input-msg">
             <label for="msg">Message</label>
-            <input type="text" id="msg"> 
+            <!-- <input type="textarea" id="msg">  -->
+            <textarea id="msg" cols="50" rows="10"></textarea>
         </div>
 
         <div style="clear: both;"></div>
 
         <div class="checkbox">
-          <label for="checkbox">Subscribe</label>
-          <input type="checkbox" id="checkbox">
+            <input type="checkbox" id="checkbox" style="float: left">
+          <label style="float: left" for="checkbox">Subscribe</label>
         </div> 
       
-        <button>SEND</button>
+        <button type="submit">SEND</button>
+
     </form>
     
 </body>
