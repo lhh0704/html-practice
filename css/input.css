@@ -46,6 +46,11 @@ h4{
     float: left;
 }
 
+input::placeholder{
+    color: rgb(205, 205, 205);
+}
+
+
 button{
     margin: 20px;
     float: right;
@@ -91,8 +96,4 @@ button{
     border: none ;
     color: white;
     border-radius: 5px;
-}
-
-pleceholder{
-    color: rgb(107, 75, 75);
 }
