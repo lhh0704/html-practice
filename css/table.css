@@ -1,14 +1,16 @@
-tr{
+tr {
     border: solid 1px rgb(183, 203, 213);
 }
 
-body{
+body {
     margin: 0;
-    background-color:rgb(183, 203, 213);
+    background-color: rgb(183, 203, 213);
 }
-.count{
+
+.count {
     text-align: right;
 }
+
 div {
     width: 80%;
     height: 300px;
@@ -19,7 +21,7 @@ div {
     position: relative;
 }
 
-table{
+table {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +32,7 @@ table{
     height: 200px;
 }
 
-button{
+button {
     position: absolute;
     right: 0;
     margin-top: 10px;
@@ -42,13 +44,13 @@ button{
     border-radius: 5px;
 }
 
-a{
+a {
     position: absolute;
     left: 0;
     margin-top: 20px;
 }
 
-p{
-font-size: 20px;
-margin-bottom: 20px;
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
