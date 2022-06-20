@@ -7,8 +7,16 @@ body {
     background-color: rgb(183, 203, 213);
 }
 
-.count {
+.count1 {
     text-align: right;
+    padding: 10px;
+}
+
+.count2{
+    text-align: right;
+    color: blue;
+    padding: 10px;
+
 }
 
 div {
@@ -19,17 +27,16 @@ div {
     margin-right: auto;
     margin-top: 200px;
     position: relative;
-}ß
+}
 
 table {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-collapse: collapse;
     border-radius: 10px;
     background-color: white;
     border: none;
-    height: 200px;
+    height: 250px;
+    width: 100%;
+    
 }
 
 button {
@@ -54,3 +61,11 @@ p {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+img {
+    width: 100px;
+}
+
+th{
+    padding: 10px;
+    box-sizing : border-box;
