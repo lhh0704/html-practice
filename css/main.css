@@ -1,6 +1,6 @@
 .profile-bg {
-    line-height:5px;
-    background-color:white ;
+    line-height: 5px;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -10,23 +10,23 @@
 
 }
 
-.profile-content{
+.profile-content {
     margin: auto;
 }
 
-.profile-img{
-    width: 100px; 
+.profile-img {
+    width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.profile-name{
+.profile-name {
     text-align: center;
 
 }
 
-.profile-job{
+.profile-job {
     text-align: center;
     color: gray;
     font-size: 12px;
@@ -35,15 +35,15 @@
 .profile-introdution-bg {
     background-color: #F2F2F2;
     width: 300px;
-    height: 150px; 
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #d1d1d1;
-                   
+
 }
 
-.profile-introdution-text{
+.profile-introdution-text {
     text-align: center;
     line-height: 150px;
     font-size: 14px;
